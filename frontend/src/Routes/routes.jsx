@@ -5,6 +5,7 @@ import LoginPage from "../Pages/loginPage"
 import HomePage from "../Pages/HomePage";
 import PropertyListing from "../Component/PropertyListing";
 import ContactUs from "../Pages/ContactUs";
+import PropertyDetails from "../Component/PropertyDetails";
 
 
 const AppRoutes = () => (
@@ -14,6 +15,8 @@ const AppRoutes = () => (
         <Route path="/LoginPage" element={<LoginPage />} />
         <Route path="/PropertListing" element={<PropertyListing />} />
         <Route path="/ContactUs" element={<ContactUs />} />
+        <Route path="/" exact component={PropertyListing} />
+        <Route path="/property/:id" component={PropertyDetails} />
 
     </Routes>
 );

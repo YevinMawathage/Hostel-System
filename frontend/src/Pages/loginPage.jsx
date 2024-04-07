@@ -45,7 +45,7 @@ function Login() {
             }
         } else {
             // 2FA code verification attempt
-            verifyTwoFactorCode();
+            await verifyTwoFactorCode();
         }
     };
 

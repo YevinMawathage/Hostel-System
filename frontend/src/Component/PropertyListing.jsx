@@ -3,6 +3,7 @@ import { useState, useEffect } from 'react';
 import {Link} from "react-router-dom";
 import properties from '../Pages/Data/properties.json'; // Adjust the path if necessary
 import './styles/PropertyLisitng.css'
+import PropertyDetails from "./PropertyDetails";
 const PropertyListing = () => {
     return (
         <div className="property-listings">
@@ -13,9 +14,9 @@ const PropertyListing = () => {
                         <h3>{property.location}</h3>
                         <p className="card-price">Rs.{property.prices}/=</p>
                         <button className='view-button'>
-                            <Link to={''}>
+                            <Link to={`/property/${property.id}`}>
                                 <span className="view-word">
-                                    View
+                                  View
                                 </span>
                             </Link>
                         </button>
