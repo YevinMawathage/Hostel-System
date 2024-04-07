@@ -4,7 +4,9 @@
     "image": "https://img.freepik.com/free-photo/house-isolated-field_1303-23773.jpg?w=826",
     "location": "Green University Town",
     "prices": "1200",
-    "info": "Targeted specifically towards solo travelers and backpackers, these hostels are a haven for individuals looking to explore new destinations without breaking the bank. They predominantly offer dormitory-style accommodations, featuring bunk beds that maximize space and foster a communal living environment. These shared rooms not only provide a place to rest but also serve as melting pots of culture and experience, where stories and travel tips are exchanged freely among guests from various corners of the globe."
+    "info": "Targeted specifically towards solo travelers and backpackers, these hostels are a haven for individuals looking to explore new destinations without breaking the bank. They predominantly offer dormitory-style accommodations, featuring bunk beds that maximize space and foster a communal living environment. These shared rooms not only provide a place to rest but also serve as melting pots of culture and experience, where stories and travel tips are exchanged freely among guests from various corners of the globe.",
+    "latitude": 51.505,
+    "longitude": -0.09
   },
   {
     "id": 2,

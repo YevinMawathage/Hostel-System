@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "title": "The Future of Web Development",
+    "content": "Web development is constantly evolving, with new technologies and frameworks emerging every year. This article explores the future trends in web development, including the rise of Jamstack, the increasing importance of web performance, and the ongoing debate between monolithic and microservices architectures."
+  },
+  {
+    "id": 2,
+    "title": "Understanding React Hooks",
+    "content": "React Hooks provide a powerful way to hook into React features and lifecycle events within functional components. This article dives deep into the basics of useState and useEffect, and explores more advanced hooks like useReducer and useContext."
+  },
+  {
+    "id": 3,
+    "title": "Accessibility in Web Design",
+    "content": "Accessibility is a crucial aspect of web design, ensuring that websites are usable by everyone, including people with disabilities. This article covers key principles of accessible design, from semantic HTML to ARIA labels and keyboard navigation."
+  }
+]

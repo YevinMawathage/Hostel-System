@@ -38,9 +38,14 @@ const AdminPage = () => {
             <h1>Admin Dashboard</h1>
             {/* Add User Form */}
             <div className="add-user-form">
-                <input type="text" name="username" placeholder="Username" value={newUser.username} onChange={handleChange} />
-                <input type="email" name="email" placeholder="Email" value={newUser.email} onChange={handleChange} />
-                <input type="text" name="role" placeholder="Role" value={newUser.role} onChange={handleChange} />
+                <div className="form-row"> {/* Container for input fields */}
+                    <input type="text" name="username" placeholder="Username" value={newUser.username}
+                           onChange={handleChange} className="input-dec"/>
+                    <input type="email" name="email" placeholder="Email" value={newUser.email} onChange={handleChange}
+                           className="input-dec"/>
+                    <input type="text" name="role" placeholder="Role" value={newUser.role} onChange={handleChange}
+                           className="input-dec"/>
+                </div>
                 <button onClick={addUser}>Add User</button>
             </div>
 
@@ -66,12 +71,13 @@ const AdminPage = () => {
                         <td>
                             {/* Placeholder for Update - Implement as needed */}
                             {/* <button onClick={() => updateUser(user.id, newUser)}>Update</button> */}
-                            <button onClick={() => deleteUser(user.id)}>Delete</button>
+                            <button className="delete-button" onClick={() => deleteUser(user.id)}>Delete</button>
                         </td>
                     </tr>
                 ))}
                 </tbody>
             </table>
+
         </div>
     );
 };

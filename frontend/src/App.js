@@ -4,6 +4,7 @@ import Admin from "./Pages/Admin";
 import Navbar from "./Component/Navbar";
 import Footer from "./Component/Footer";
 import PropertyListing from "./Component/PropertyListing";
+import Map from "./Component/Map";
 
 
 
@@ -13,7 +14,6 @@ function App() {
         <Navbar />
         <AppRoutes />
         <Footer />
-        <Admin />
     </div>
   );
 }
