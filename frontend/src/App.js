@@ -13,6 +13,7 @@ function App() {
         <Navbar />
         <AppRoutes />
         <Footer />
+        <Admin />
     </div>
   );
 }

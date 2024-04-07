@@ -1,0 +1,73 @@
+/* PropertyDetails.css */
+.property-details-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+    background-color: #f5f5f5; /* Consider matching this to your site's background */
+}
+
+.property-details-container {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    padding: 20px;
+    margin: 20px;
+    width: 90%;
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.property-image-container {
+    margin-bottom: 20px;
+}
+
+.property-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.property-info-container {
+    text-align: center;
+}
+
+.property-location, .property-info, .property-price {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.reservation-button {
+    background-color: #000000; /* Primary button color */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.reservation-button:hover {
+    background-color: #f5e90a; /* Button hover state for a slightly darker blue */
+}
+
+.reservation-message {
+    color: #28a745; /* Success message color */
+    margin-top: 15px;
+    font-size: 16px;
+}
+
+@media (max-width: 768px) {
+    .property-details-container {
+        width: 95%;
+    }
+
+    .property-info-container, .reservation-button, .reservation-message {
+        text-align: center;
+        width: 100%;
+    }
+}

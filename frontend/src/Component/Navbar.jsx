@@ -24,7 +24,7 @@ const Navbar = () => {
                     <Link to="/">Home</Link>
                     <Link to="/about">About</Link>
                     <Link to="/PropertListing">Explore</Link>
-                    <Link to="/ContactUs">Contact</Link>
+                    <Link to="/ContactUs">Contact Us</Link>
                 </div>
                 <div className="navbar-auth">
                     <Link to="/LoginPage" className="auth-btn">Sign In</Link>

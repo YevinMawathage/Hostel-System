@@ -15,8 +15,8 @@ const AppRoutes = () => (
         <Route path="/LoginPage" element={<LoginPage />} />
         <Route path="/PropertListing" element={<PropertyListing />} />
         <Route path="/ContactUs" element={<ContactUs />} />
-        <Route path="/" exact component={PropertyListing} />
-        <Route path="/property/:id" component={PropertyDetails} />
+        <Route path="/" element={<PropertyListing />} />
+        <Route path="/property/:id" element={<PropertyDetails />} />
 
     </Routes>
 );
