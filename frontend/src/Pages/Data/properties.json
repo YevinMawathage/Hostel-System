@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "image": "https://img.freepik.com/free-photo/house-isolated-field_1303-23773.jpg?w=826",
+    "location": "Green University Town",
+    "prices": "1200"
+  },
+  {
+    "id": 2,
+    "image": "https://img.freepik.com/free-photo/luxury-pool-villa-spectacular-contemporary-design-digital-art-real-estate-home-house-property-ge_1258-150749.jpg?w=826",
+    "location": "City Center Flat",
+    "prices": "1500"
+  },
+  {
+    "id": 3,
+    "image": "https://img.freepik.com/free-photo/road-city_1417-1426.jpg?w=826",
+    "location": "Suburban Residence",
+    "prices": "1000"
+  },
+  {
+    "id": 4,
+    "image": "https://img.freepik.com/free-photo/mother-daughter-standing-lawn_1170-2802.jpg?w=826",
+    "location": "Suburban Residence",
+    "prices": "1000"
+  },
+  {
+    "id": 5,
+    "image": "https://img.freepik.com/free-photo/night-architecture-outdoors-dusk-building-exterior-tree-grass-illuminated-generative-ai_188544-7729.jpg?w=826",
+    "location": "Suburban Residence",
+    "prices": "1000"
+  },
+  {
+    "id": 6,
+    "image": "https://img.freepik.com/free-photo/beautiful-shot-big-farmhouse-clear-blue-sky_181624-15996.jpg?w=996",
+    "location": "Suburban Residence",
+    "prices": "2000"
+  },
+  {
+    "id": 6,
+    "image": "https://img.freepik.com/free-photo/analog-landscape-city-with-buildings_23-2149661456.jpg?w=826",
+    "location": "Suburban Residence",
+    "prices": "1000"
+  },
+  {
+    "id": 6,
+    "image": "https://img.freepik.com/free-photo/luxury-pool-villa-spectacular-contemporary-design-digital-art-real-estate-home-house-property-ge_1258-150762.jpg?w=826",
+    "location": "Suburban Residence",
+    "prices": "1000"
+  }
+]
